@@ -283,6 +283,7 @@
             path: mapInfo.path
           }), projectionName + ext
         ].join('/');
+        this.$('#' + side + 'mapdl').attr('href', mapUrl);
       } else {
         console.log("Can't map that -- no '" + sideInfo.mapName + "' in index");
       }

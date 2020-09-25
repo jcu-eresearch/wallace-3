@@ -384,6 +384,9 @@ AppView = Backbone.View.extend {
                 @resolvePlaceholders url, { path: mapInfo.path }
                 projectionName + ext
             ].join '/'
+
+            # update the download links
+            @$('#' + side + 'mapdl').attr 'href', mapUrl
         else
             console.log "Can't map that -- no '#{sideInfo.mapName}' in index"
 
