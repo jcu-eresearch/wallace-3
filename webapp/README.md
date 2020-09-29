@@ -29,6 +29,7 @@ JS dependencies:
 
 To build the js: `gulp` (will watch) or `gulp build`
 - will need to re-run each time CoffeeScript code is changed
+- code changes will need to be committed before pushing to production
 
 To build/install python code: `python setup.py install`
 - will need to re-run each time python code is changed
