@@ -146,12 +146,12 @@ class ApiView(object):
 
             # todo: put this into a timeout somehow
             poke = requests.put(
-                "http://wallace-maps.hpc.jcu.edu.au/geoserver/rest/workspaces/wallace/coveragestores/" + coverage_name + "/external.geotiff",
+                "https://wallace-maps.hpc.jcu.edu.au/geoserver/rest/workspaces/wallace/coveragestores/" + coverage_name + "/external.geotiff",
                 data=path_to_map_tif,
                 auth=(gs_user, gs_pass)
             )
             poke = requests.post(
-                "http://wallace-maps.hpc.jcu.edu.au/geoserver/rest/workspaces/wallace/coveragestores/" + coverage_name + "/coverages",
+                "https://wallace-maps.hpc.jcu.edu.au/geoserver/rest/workspaces/wallace/coveragestores/" + coverage_name + "/coverages",
                 data="<coverage><name>" + coverage_name + "</name><nativeName>" + map_projection + "</nativeName></coverage>",
                 auth=(gs_user, gs_pass),
                 headers={'Content-type': 'text/xml'}
@@ -162,7 +162,7 @@ class ApiView(object):
             if (poke.ok or 'already exists' in poke.text):
                 result = {
                     "ok": True,
-                    "mapUrl": u"http://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms",
+                    "mapUrl": u"https://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms",
                     "layerName": u"wallace:" + coverage_name
                 }
 

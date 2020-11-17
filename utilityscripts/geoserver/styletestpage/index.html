@@ -93,13 +93,13 @@
 // ----------------------------------------------------------------------
 	function layer(layerName, style) {
 	    testLayer.remove()
-	    testLayer = L.tileLayer.wms("http://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms", {
+	    testLayer = L.tileLayer.wms("https://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms", {
 	        layers: layerName, format: 'image/png', styles: style, transparent: true
 	    })
 	    testLayer.addTo(testmap)
 
 	 //    legendControl.remove()
-		// uri = "http://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms?"
+		// uri = "https://wallace-maps.hpc.jcu.edu.au/geoserver/wallace/wms?"
 	 //    uri += ['REQUEST=GetLegendGraphic',  'VERSION=1.0.0',
 		// 	    'WIDTH=20',                  'HEIGHT=20',
 	 //            'FORMAT=image/png',          'LAYER=' + layerName,
