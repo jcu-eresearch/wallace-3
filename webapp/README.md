@@ -23,20 +23,22 @@ python setup.py install
 
 JS dependencies:
 
-`npm install` will work but you will need a version of node < 11 for gulp to run.
+`npm install` will work but you will need a version of Node < 11 for gulp to run.
+[`nvm`](https://github.com/nvm-sh/nvm) provides an easy way of installing older versions of Node;
+builds have been tested with `v8.17.0`.
 
 # Running the project
 
-To build the js: `gulp` (will watch) or `gulp build`
-- will need to re-run each time CoffeeScript code is changed
+To build the js: `npm run build` (to run a build) or `npx gulp` (will watch for changes)
+- will need to be re-run each time CoffeeScript code is changed
 - code changes will need to be committed before pushing to production
 
 To build/install python code: `python setup.py install`
-- will need to re-run each time python code is changed
+- will need to be re-run each time Python code is changed
 
 To run the project `pserve [ production.ini | test.ini ]`
-- will need to re-run every time the python or js code changes
-- runs on localhost:6543
+- will need to rbe e-run every time the Python or JS code changes
+- runs on `localhost:6543`
 
 # About
 
