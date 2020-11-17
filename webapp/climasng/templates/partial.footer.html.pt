@@ -1,6 +1,6 @@
 <footer class="page clearfix">
     <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
             <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
             Creative Commons licenced
         </a>
@@ -8,5 +8,5 @@
     <p>
         <a href="mailto:jeff.price@uea.ac.uk?subject=Wallace+feedback">Feedback</a>
     </p>
-    <p style="float: right; opacity: 0.5"><a style="text-decoration: none;" href="/static/humans.txt">&#x2661;</a></p>
+    <p style="float: right;"><a style="text-decoration: none;" href="/static/humans.txt">&#x2661;</a></p>
 </footer>

@@ -47,7 +47,7 @@
 
 <header class="page clearfix">
 	<h1>Wallace Initiative 3</h1>
-	<a href="http://tropicaldatahub.org/">
+	<a href="https://tropicaldatahub.org/">
 		<img class="logo" src="${request.static_path('climasng:static/images/tdhlogo.png')}" />
 	</a>
 	<p>Climate change and biodiversity across the world</p>

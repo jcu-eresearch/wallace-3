@@ -107,9 +107,9 @@ All climate suitability maps for a chosen taxon are converted to binary (sutable
 
 Importantly, all potentially suitable climate space is shown, even if the species has not been observed there, or could not realistically move there in the future.  We show this because species can be relocated, intentionally (ie. for their preservation) or unintentionally (where they may become pests).
 
-Models for each species can be found at [http://tropicaldatahub.org/goto/climas/suitability](http://tropicaldatahub.org/goto/climas/suitability).
+Models for each species can be found at [https://tropicaldatahub.org/goto/climas/suitability](https://tropicaldatahub.org/goto/climas/suitability).
 
-Richness maps for birds, mammals, amphibians and reptiles, and all their sub families or genera can be found at [http://tropicaldatahub.org/goto/climas/biodiversity](http://tropicaldatahub.org/goto/climas/biodiversity).
+Richness maps for birds, mammals, amphibians and reptiles, and all their sub families or genera can be found at [https://tropicaldatahub.org/goto/climas/biodiversity](https://tropicaldatahub.org/goto/climas/biodiversity).
 
 ### Regional Biodiversity Implications
 

@@ -116,20 +116,20 @@ AppView = Backbone.View.extend {
         @legend.addTo @map
 
         ## removed MapQuest base layer 2016-07-20 due to licencing changes
-        # L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
+        # L.tileLayer('https://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
         #     subdomains: '1234'
         #     maxZoom: 18
         #     attribution: '''
-        #     Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>,
-        #     tiles &copy; <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>
+        #     Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>,
+        #     tiles &copy; <a href="https://www.mapquest.com/" target="_blank">MapQuest</a>
         #     '''
         # }).addTo @map
         #
         ## replaced with HERE maps base layer
 
         ## removing HERE maps base layer
-        # L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-        #     attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>'
+        # L.tileLayer('https://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        #     attribution: 'Map &copy; 2016 <a href="https://developer.here.com">HERE</a>'
         #     subdomains: '1234'
         #     base: 'aerial'
         #     type: 'maptile'
