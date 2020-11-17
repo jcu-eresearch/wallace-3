@@ -124,7 +124,7 @@
       newHash = ((function() {
         var _results;
         _results = [];
-        for (key in hashItems) {
+        for (var key in hashItems) {
           _results.push(key + '=' + hashItems[key]);
         }
         return _results;
